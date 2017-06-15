@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name"> GameMasering  </string>
+    <string name="prompt_step">Sélectionnez une étape</string>
+    <string name="prompt_enigme">Sélectionnez une énigme</string>
+    <string name="prompt_indice">Sélectionnez un indice</string>
+    <string name="settings">Paramètres</string>
+    <string name="gestion_des_parties">Gestion des parties</string>
+    <string name="game_mastering">Game Mastering</string>
+
+    <string-array name="hours">
+        <item>10h</item>
+        <item>12h</item>
+        <item>14h</item>
+    </string-array>
+    <string-array name="days">
+        <item>01-10-11</item>
+        <item>02/02/02</item>
+    </string-array>
+
+</resources>

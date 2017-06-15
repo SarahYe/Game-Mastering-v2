@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginTop="42dp"
+        android:textAllCaps="false"
+        android:text="Etape 1"
+        android:id="@+id/etape1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Etape 2"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:id="@+id/etape2"
+        android:layout_alignBaseline="@+id/etape1"
+        android:layout_alignBottom="@+id/etape1"
+        android:layout_toRightOf="@+id/etape1"
+        android:layout_toEndOf="@+id/etape1" />
+
+    <Button
+        android:id="@+id/etape3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Etape 3"
+        android:layout_alignBaseline="@+id/etape2"
+        android:layout_alignBottom="@+id/etape2"
+        android:layout_toRightOf="@+id/etape2"
+        android:layout_toEndOf="@+id/etape2"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <Button
+        android:id="@+id/etape4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Etape 4"
+        android:layout_alignBaseline="@+id/etape3"
+        android:layout_alignBottom="@+id/etape3"
+        android:layout_toRightOf="@+id/etape3"
+        android:layout_toEndOf="@+id/etape3"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        />
+
+    <Button
+        android:id="@+id/categorie1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="115dp"
+        android:text="Cat\égorie 1"
+        android:layout_below="@+id/etape1"
+        android:layout_alignLeft="@+id/etape1"
+        android:layout_alignStart="@+id/etape1"
+        android:layout_marginTop="29dp"
+        />
+
+    <Button
+        android:id="@+id/categorie2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="115dp"
+        android:text="Cat\égorie 2"
+        android:layout_below="@+id/categorie1"
+        android:layout_alignLeft="@+id/categorie1"
+        android:layout_alignStart="@+id/categorie1"
+        />
+
+    <Button
+        android:id="@+id/categorie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="115dp"
+        android:text="Cat\égorie 3"
+        android:layout_below="@+id/categorie2"
+        android:layout_alignLeft="@+id/categorie2"
+        android:layout_alignStart="@+id/categorie2"
+        />
+
+    <Button
+        android:id="@+id/categorie4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Cat\égorie 4"
+        android:width="115dp"
+        android:layout_below="@+id/categorie3"
+        android:layout_alignLeft="@+id/categorie3"
+        android:layout_alignStart="@+id/categorie3"
+        />
+
+    <Button
+        android:id="@+id/categorie5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Cat\égorie 5"
+        android:width="115dp"
+        android:layout_below="@+id/categorie4"
+        android:layout_alignLeft="@+id/categorie4"
+        android:layout_alignStart="@+id/categorie4"
+        />
+
+    <Button
+        android:id="@+id/categorie6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="115dp"
+        android:text="Cat\égorie 6"
+        android:layout_below="@+id/categorie5"
+        android:layout_alignLeft="@+id/categorie5"
+        android:layout_alignStart="@+id/categorie5"
+        />
+    <Button
+        android:id="@+id/categorie7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Cat\égorie 7"
+        android:layout_below="@+id/categorie6"
+        android:width="115dp"
+        android:layout_alignLeft="@+id/categorie6"
+        android:layout_alignStart="@+id/categorie6"
+        />
+
+    <Button
+        android:id="@+id/categorie8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Cat\égorie 8"
+        android:width="115dp"
+        android:layout_below="@+id/categorie7"
+        android:layout_alignLeft="@+id/categorie7"
+        android:layout_alignStart="@+id/categorie7"
+        />
+
+    <Button
+        android:id="@+id/indice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="700dp"
+        android:text="Indice 1"
+        android:layout_alignBaseline="@+id/categorie1"
+        android:layout_alignBottom="@+id/categorie1"
+        android:layout_alignLeft="@+id/etape2"
+        android:layout_alignStart="@+id/etape2"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <Button
+        android:id="@+id/indice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="700dp"
+        android:text="Indice 2"
+        android:layout_below="@+id/indice1"
+        android:layout_alignLeft="@+id/indice1"
+        android:layout_alignStart="@+id/indice1" />
+
+    <Button
+        android:id="@+id/indice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="700dp"
+        android:text="Indice 3"
+        android:layout_below="@+id/indice2"
+        android:layout_alignLeft="@+id/indice2"
+        android:layout_alignStart="@+id/indice2" />
+
+    <Button
+        android:id="@+id/indice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="700dp"
+        android:text="Indice 4"
+        android:layout_below="@+id/indice3"
+        android:layout_alignLeft="@+id/indice3"
+        android:layout_alignStart="@+id/indice3" />
+
+    <Button
+        android:id="@+id/indice5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:width="700dp"
+        android:text="Indice 5"
+        android:layout_below="@+id/indice4"
+        android:layout_alignLeft="@+id/indice4"
+        android:layout_alignStart="@+id/indice4" />
+
+
+</RelativeLayout>
