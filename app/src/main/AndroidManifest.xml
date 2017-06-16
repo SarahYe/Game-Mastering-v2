@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.secretroomagency.www.testapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,8 +12,10 @@
         android:theme="@style/AppTheme"
         android:screenOrientation="landscape">
 
-        <uses-library android:name="rtandroid.sdk" />
-        <activity android:name=".MainActivity"
+        <uses-library android:name="com.google.android.maps" />
+
+
+        <activity android:name=".CommunicationMySQL"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +29,7 @@
         </activity>
 
         <activity
-            android:name=".OptionActivity"
+            android:name=".MainActivity"
             >
         </activity>
 
@@ -35,6 +38,10 @@
             >
         </activity>
 
+        <activity
+            android:name=".ManagementActivity"
+            >
+        </activity>
     </application>
 
 </manifest>

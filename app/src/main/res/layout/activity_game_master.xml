@@ -306,8 +306,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/redborder"
             android:layout_weight="0.75"
+            android:background="@drawable/redborder"
             android:orientation="vertical">
 
             <LinearLayout
@@ -331,10 +331,10 @@
                     android:id="@+id/time"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
                     android:layout_marginLeft="2dp"
                     android:layout_marginStart="2dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="1dp"
                     android:background="@color/white"
                     android:ems="10"
                     android:inputType="time"
@@ -344,10 +344,10 @@
                     android:id="@+id/set"
                     android:layout_width="50dp"
                     android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="5dp"
                     android:background="@drawable/border"
                     android:text="Set"
                     android:textSize="20sp" />
@@ -436,9 +436,9 @@
                     <RadioGroup
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="50dp"
                         android:layout_marginStart="50dp"
-                        android:layout_marginBottom="5dp"
                         android:orientation="horizontal">
 
                         <RadioButton
@@ -490,10 +490,10 @@
                         android:id="@+id/spinner_music"
                         android:layout_width="250dp"
                         android:layout_height="match_parent"
+                        android:layout_marginBottom="7dp"
                         android:layout_marginLeft="25dp"
                         android:layout_marginStart="25dp"
                         android:layout_marginTop="7dp"
-                        android:layout_marginBottom="7dp"
                         android:background="@color/red"
                         android:entries="@array/days"
                         android:gravity="fill_horizontal"
@@ -525,14 +525,14 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.2"
-                    android:orientation="vertical"
                     android:layout_marginBottom="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/redborder">
+                    android:layout_weight="0.2"
+                    android:background="@drawable/redborder"
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -555,10 +555,10 @@
                                     android:id="@+id/spinner_step"
                                     android:layout_width="200dp"
                                     android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginStart="15dp"
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginBottom="5dp"
                                     android:background="@color/red"
                                     android:entries="@array/days"
                                     android:gravity="fill_horizontal"
@@ -576,10 +576,10 @@
                                     android:id="@+id/spinner_enigme"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginStart="15dp"
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginBottom="5dp"
                                     android:background="@color/red"
                                     android:entries="@array/days"
                                     android:gravity="fill_horizontal"
@@ -598,10 +598,10 @@
                                 android:id="@+id/spinner_indice"
                                 android:layout_width="350dp"
                                 android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginStart="15dp"
                                 android:layout_marginTop="5dp"
-                                android:layout_marginBottom="5dp"
                                 android:background="@color/red"
                                 android:entries="@array/days"
                                 android:gravity="fill_horizontal"
@@ -613,8 +613,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:layout_weight="0.25">
+                        android:layout_weight="0.25"
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -679,11 +679,11 @@
                                         android:id="@+id/textView3"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
                                         android:layout_marginLeft="50dp"
                                         android:layout_marginStart="50dp"
                                         android:layout_marginTop="7dp"
-                                        android:layout_marginBottom="5dp"
-                                        android:text="DERNIER INDICE ENVOYE "
+                                        android:text="DERNIER INDICE ENVOYÉ "
                                         android:textColor="@color/white"
                                         android:textSize="15sp" />
                                 </LinearLayout>
@@ -697,11 +697,11 @@
                                         android:id="@+id/textView4"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginEnd="5dp"
                                         android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="5dp"
                                         android:layout_marginStart="15dp"
                                         android:layout_marginTop="5dp"
-                                        android:layout_marginEnd="5dp"
-                                        android:layout_marginRight="5dp"
                                         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam"
                                         android:textColor="@color/white"
                                         android:textSize="10sp" />
@@ -744,22 +744,23 @@
                                     android:id="@+id/re_send"
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
+                                    android:layout_marginBottom="3dp"
                                     android:layout_marginLeft="40dp"
                                     android:layout_marginStart="40dp"
                                     android:layout_marginTop="2dp"
-                                    android:layout_marginBottom="3dp"
                                     android:background="@drawable/border"
                                     android:text="Renvoyer"
                                     android:textAllCaps="false"
                                     android:textSize="20sp" />
+
                                 <Button
                                     android:id="@+id/erase"
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
+                                    android:layout_marginBottom="3dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginStart="20dp"
                                     android:layout_marginTop="2dp"
-                                    android:layout_marginBottom="3dp"
                                     android:background="@drawable/border"
                                     android:text="Effacer"
                                     android:textAllCaps="false"
@@ -769,10 +770,10 @@
                                     android:id="@+id/send"
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
+                                    android:layout_marginBottom="3dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginStart="20dp"
                                     android:layout_marginTop="2dp"
-                                    android:layout_marginBottom="3dp"
                                     android:background="@drawable/border"
                                     android:text="Envoyer"
                                     android:textAllCaps="false"
@@ -817,10 +818,10 @@
                             android:layout_marginLeft="23dp"
                             android:layout_marginStart="23dp"
                             android:layout_marginTop="5dp"
-                            android:text="TEMPS REALISE : "
-                            android:textStyle="bold"
+                            android:text="TEMPS REALISÉ : "
                             android:textColor="@color/white"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
 
                         <EditText
                             android:id="@+id/final_time"
@@ -842,9 +843,9 @@
                             android:layout_marginStart="30dp"
                             android:layout_marginTop="10dp"
                             android:text="CLASSEMENT"
-                            android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -861,9 +862,9 @@
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
                             android:text="REUSSITE : "
-                            android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
 
                         <RadioGroup
                             android:layout_width="150dp"
@@ -897,9 +898,9 @@
                             android:layout_marginStart="50dp"
                             android:layout_marginTop="4dp"
                             android:text="12"
-                            android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:textSize="40sp" />
+                            android:textSize="40sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -914,11 +915,11 @@
                         android:id="@+id/save"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
                         android:layout_marginLeft="110dp"
                         android:layout_marginRight="110dp"
-                        android:layout_gravity="center"
                         android:layout_marginTop="2dp"
-                        android:layout_marginBottom="3dp"
                         android:background="@drawable/border"
                         android:text="Enregistrer la partie"
                         android:textAllCaps="false"

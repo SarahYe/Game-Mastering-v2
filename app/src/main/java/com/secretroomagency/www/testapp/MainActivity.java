@@ -2,7 +2,6 @@ package com.secretroomagency.www.testapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.DynamicLayout;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
